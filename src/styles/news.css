@@ -1,0 +1,50 @@
+.content {
+  display: block;
+  max-width: calc(100vw - 680px);
+  margin: 0.5rem auto;
+}
+
+.content div {
+  padding: 0.5rem;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  margin: 0.5rem 0;
+}
+
+.content div h2 {
+  font-weight: 800;
+  margin-top: 2rem;
+}
+
+.content div div {
+  display: flex;
+  align-items: center;
+  /* background-color: #5b5b5b; */
+}
+
+.content div div p {
+  font-size: 22px;
+  padding: 0 0.5rem;
+}
+
+.content div img {
+  width: 50%;
+  border-radius: 8px;
+}
+
+.seeMore {
+  padding: 0.6rem;
+  background-color: #5454f3;
+  width: 32%;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+.seeMore a {
+  color: #fff;
+}
+.seeMore:hover {
+  opacity: 0.9;
+}
